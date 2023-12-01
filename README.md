@@ -36,6 +36,35 @@ $ python benchmark.py
 
 ```
 
+### Sample venv deps
+- crypt-curr
+```
+$ pip list
+
+Package      Version
+------------ -------
+cffi         1.16.0
+cryptography 3.4.8
+pip          22.0.4
+pycparser    2.21
+pycryptodome 3.10.1
+setuptools   58.1.0
+
+```
+- crypt-latest 
+```
+$ pip list
+
+Package      Version
+------------ -------
+cffi         1.16.0
+cryptography 41.0.7
+pip          22.0.4
+pycparser    2.21
+pycryptodome 3.19.0
+setuptools   58.1.0
+```
+
 ### Sample benchmarking results
 ```
 (crypt-latest) admin@ip-10-201-1-60:~/bench-crypto$ python benchmark.py
